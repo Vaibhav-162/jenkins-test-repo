@@ -6,7 +6,7 @@ const app = express();
 app.use(cors("*"));
 
 app.get("/", (req, res) => {
-  res.send("Hello from the Jenkins The Butler !!!");
+  res.send("Hello from the Jenkins !!!");
 });
 
 app.listen(4000, "0.0.0.0", () => {
